@@ -1,0 +1,36 @@
+<h1>Register Form</h1>
+<div class="container" style=background-color:pink>
+<form [formGroup]="aki" (ngSubmit)="(this.aki.value)"novalidate>
+ <p>  
+    <label for="username">Username</label>
+    <input type="text"  name="username" formControlName="username">
+  </p>
+
+<p>
+    <label for="password">password</label>
+    <input type="password"  name="password" formControlName="password">
+</p>
+
+
+<p>
+    <label for="email">email</label>
+    <input type="text"  name="email" formControlName="email">
+</p>
+   
+
+<p>
+    <label for="phone">phone</label>
+    <input type="text"  name="phone" formControlName="phone">
+</p>
+
+
+<p>
+    <label for="state">state</label>
+    <input type="text"  name="state" formControlName="state">
+</p>
+
+<p>
+    <button type="button" class="btn btn-success" (click)="postdata()" [disabled]="this.aki.invalid">Submit</button>
+</p>
+</form> 
+</div>

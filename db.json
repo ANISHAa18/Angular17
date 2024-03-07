@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "username": "Anisha",
+      "password": "12345",
+      "email": "anisha1999a@gmail.com",
+      "phone": "7010443861",
+      "state": "TN",
+      "id": 2
+    },
+    {
+      "username": "Anisha",
+      "password": "12345",
+      "email": "anisha1999a@gmail.com",
+      "phone": "7010443861",
+      "state": "TN",
+      "id": 3
+    },
+    {
+      "username": "Anisha",
+      "password": "asdfg",
+      "email": "anisha19a@gmail.com",
+      "phone": "7010443861",
+      "state": "TN",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
